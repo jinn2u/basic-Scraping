@@ -1,2 +1,1 @@
-01 -> urlRetrieve 사용하기
-02-> 바이너리로 받아서 저장한다. with open의 사용법
+[URL을 통한 사진 ](https://github.com/jinn2u/basic-Scraping/blob/master/base/01.py)
