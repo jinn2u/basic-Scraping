@@ -5,8 +5,9 @@ url = 'http://uta.pw/shodou/img/28/214.png'
 savename = 'test3.png'
 #다운로드
 men = urllib.request.urlopen(url).read()
-# print(men)
+# print(men) #=>binary형태로 나온다.
 
+# binary 형태의 savename을 write한다
 with open(savename,mode='wb') as f:
     f.write(men)
     print("저장되었습니다.")
