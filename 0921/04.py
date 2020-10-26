@@ -22,4 +22,5 @@ print(text)
 #     print("저장되었습니다.")
 
 #  저장방법 2.
+# savename='asd.txt'
 # urllib.request.urlretrieve(url,savename)
